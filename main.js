@@ -10,6 +10,15 @@ const showMenu = document.getElementById("burger").addEventListener("click", () 
     }
 })
 
-document.getElementById("products").style.display = "none";
-document.getElementById("prod").style.display = "none";
-
+const products = [
+    document.getElementById("prod1"),
+    document.getElementById("prod2"),
+    document.getElementById("prod3"),
+    document.getElementById("prod4"),
+    document.getElementById("prod5"),
+    document.getElementById("prod6"),
+    document.getElementById("prod7"),
+    document.getElementById("prod8"),
+    document.getElementById("prod9"),
+    document.getElementById("prod10")
+]
